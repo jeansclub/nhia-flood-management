@@ -46,11 +46,12 @@ h1 {
 }
 
 .menu {
-    padding: 7px 0;
+    padding: 0.65rem 0;
 }
 
 .menu:hover {
     background-color: #ffd218;
+    border-radius: 5px;
 }
 
 .menu:hover > a {
@@ -60,7 +61,7 @@ h1 {
 a {
     padding: 0 1.25rem;
     width: 100%;
-    border-right: solid 1.5px;
+    border-right: solid 1px;
     border-color: #e8f2f6;
     text-decoration: none;
     font-weight: medium;
@@ -78,16 +79,40 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
+.fl-con {
+    margin-left: 15%;
+    width: 45%;
+    padding: 2rem 4% 3rem;
+    position: relative;
+    background-color: rgba(3, 35, 44, 0.6);
+}
+
+
 h3 {
-    margin: 0;
+    font-size: 2rem;
+    font-weight: medium;
+    margin: 0 0 0.5rem 0;
     padding: 0;
+    color: #e8f2f6;
 }
 
 .ex {
     margin: 0;
     padding: 0;
+    margin-bottom: 1rem;
+    color: #e8f2f6;
+}
+
+.fl-a {
+    color: #042e3c;
+    padding: 0.65rem 1rem;
+    border-style: none;
+    background-color: #ffd218;
+    border-radius: 5px;
 }
 
 .info-con {
