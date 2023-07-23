@@ -1,0 +1,102 @@
+body {
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+nav {
+    background-color: #042e3c;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #e8f2f6;
+    font-size: 3rem;
+}
+
+
+.hd {
+    margin: 0;
+    padding: 0;
+    color: #e8f2f6;
+    font-size: 0.75rem;
+}
+
+.menu-bx {
+    display: flex;
+    margin: 0 3.125rem 0 auto;
+}
+
+.menu {
+    padding: 7px 0;
+}
+
+.menu:hover {
+    background-color: #ffd218;
+}
+
+.menu:hover > a {
+    border-style: none;
+}
+
+a {
+    padding: 0 1.25rem;
+    width: 100%;
+    border-right: solid 1.5px;
+    border-color: #e8f2f6;
+    text-decoration: none;
+    font-weight: medium;
+    color: #e8f2f6;
+}
+
+.story {
+    border-style: none;
+}
+
+.fl-1 {
+    height: 35rem;
+    width: 100%;
+    background-image: url(image/Floods-in-Jalingo-Taraba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.ex {
+    margin: 0;
+    padding: 0;
+}
+
+.info-con {
+    background-color: white;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.info {
+    width: 70%;
+    margin: 0 auto;
+}
