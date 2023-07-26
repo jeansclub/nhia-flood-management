@@ -215,6 +215,7 @@ h3 {
     background-color: white;
     width: 100%;
     margin: 4rem 0 0;
+    padding: 0 0 4rem;
 }
 
 .fl-ti {
@@ -322,4 +323,41 @@ h3 {
     padding: 0;
     color: #e8f2f6;
     width: 100%;
+}
+
+.google {
+    border-radius: 10px;
+    width: 40%;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.ps-l {
+    width: 115%;
+    border-style: none;
+}
+
+.apple {
+    border-radius: 10px;
+    width: 40%;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.app-l {
+    width: 186%;
+    border-style: none;
+}
+
+.d-bt {
+    width: 60%;
+    margin: 0 auto 5rem;
+    display: flex;
+    gap: 20%;
 }
