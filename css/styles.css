@@ -72,6 +72,10 @@ a {
     border-style: none;
 }
 
+.int-co {
+    position: relative;
+}
+
 .fl-1 {
     height: 35rem;
     width: 100%;
@@ -79,15 +83,14 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
 }
 
 .fl-con {
-    margin-left: 17.5%;
     width: 45%;
     padding: 2rem 4% 3rem;
-    position: relative;
+    position: absolute;
+    left: 17.5%;
+    top: 9rem;
     background-color: rgba(3, 35, 44, 0.6);
 }
 
@@ -267,7 +270,6 @@ h3 {
 
 .wfo {
     width: 32%;
-    position: relative;
 }
 
 .wfo-a {
@@ -323,6 +325,7 @@ h3 {
     padding: 0;
     color: #e8f2f6;
     width: 100%;
+    border-style: none;
 }
 
 .google {
