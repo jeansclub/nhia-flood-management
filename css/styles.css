@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(213, 236, 245);
+    background-color: #ece8e8;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
@@ -328,9 +328,39 @@ h3 {
     border-style: none;
 }
 
+.lst-sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dwnld {
+    margin-top: 1rem;
+}
+
+.d-bt {
+    width: 60%;
+    margin: 0 auto 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.andr {
+    text-align: center;
+    width: 40%;
+}
+
+.for-p {
+    color: #042e3c;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
 .google {
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
     height: 6.5rem;
     display: flex;
     align-items: center;
@@ -339,13 +369,13 @@ h3 {
 }
 
 .ps-l {
-    width: 115%;
+    width: 105%;
     border-style: none;
 }
 
 .apple {
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
     height: 6.5rem;
     display: flex;
     align-items: center;
@@ -358,9 +388,89 @@ h3 {
     border-style: none;
 }
 
-.d-bt {
-    width: 60%;
-    margin: 0 auto 5rem;
+footer {
+    width: 100%;
+    background-color: #042e3c;
+    padding: 1rem 0 0.5rem;
+}
+
+.foo-co {
+    width: 80%;
     display: flex;
-    gap: 20%;
+    margin: 0 auto;
+}
+
+.foo-l {
+    margin: 0;
+    width: 25%;
+}
+
+.foo-bx {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 25%;
+}
+
+.foo-a {
+    border-style: none;
+    width: 100%;
+}
+
+.snd {
+    font-weight: normal;
+}
+
+.soc {
+    display: flex;
+    gap: 5%;
+    width: 60%;
+    margin-right: 10rem;
+}
+
+.foo-soc {
+    width: 30%;
+    border-style: none;
+}
+
+.soc-img {
+    width: 500%;
+}
+
+.pat-con {
+    width: 100%;
+}
+
+.pat {
+    color: #ece8e8;
+    font-size: 0.8rem;
+    margin: 0 0 0 1.5rem;
+    padding: 0 0.7rem 0 0;
+    font-weight: normal;
+}
+
+.pat-e {
+    padding-left: 0.7rem;
+}
+
+.part-w {
+    margin-bottom: 0.5rem;
+}
+
+.aa {
+    border-style: none;
+}
+
+.copy {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.copyrt {
+    color: #ece8e8;
+    font-size: 0.8rem;
+    margin: 0 0 0 40%;
+    font-weight: normal;
 }
