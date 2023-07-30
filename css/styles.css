@@ -338,6 +338,29 @@ h3 {
     margin-top: 1rem;
 }
 
+.phn {
+    height: 44rem;
+    width: 60%;
+    margin: 0 auto 3rem;
+    position: relative;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+}
+
+
+.iPhone {
+    width: 15rem;
+    height: 30rem;
+}
+
+.third {
+    width: 15rem;
+    position: absolute;
+    bottom: 0;
+    right: 34%;
+}
+
 .d-bt {
     width: 60%;
     margin: 0 auto 5rem;
