@@ -49,13 +49,12 @@ h1 {
     padding: 0.65rem 0;
 }
 
-.menu:hover {
-    background-color: #ffd218;
-    border-radius: 5px;
+.faq {
+    border-style: none;
 }
 
-.menu:hover > a {
-    border-style: none;
+.sva:hover {
+    color: #ffd218;  
 }
 
 a {
@@ -68,8 +67,15 @@ a {
     color: #e8f2f6;
 }
 
+.home {
+    color: #ffd218;
+}
+
 .story {
     border-style: none;
+    background-color: #ffd218;
+    color: #042e3c;
+    border-radius: 5px;
 }
 
 .int-co {
