@@ -22,7 +22,7 @@ nav {
 }
 
 .logo {
-    margin-left: 50px;
+    margin-left: 2%;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 
 .menu-bx {
     display: flex;
-    margin: 0 3.125rem 0 auto;
+    margin: 0 2% 0 auto;
 }
 
 a {
@@ -131,4 +131,172 @@ form {
 
 .btn:hover {
     background-color: #217a7e;
+}
+
+.form-src {
+    width: 100%;
+}
+
+.form-src-loc {
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.form-src-dt {
+    display: flex;
+    gap: 2%;
+    margin: 2%;
+    width: 96%;
+}
+
+.samp-con {
+    background-color: white;
+    width: 58%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.weth {
+    background-image: url(image/storm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cntrl {
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}
+
+.no1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.des {
+    font-weight: bold;
+    color: #3feff8;
+}
+
+.time {
+    margin-left: auto;
+    color: #3feff8;
+}
+
+.no2 {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.left {
+    width: 60%;
+}
+
+.first {
+    width: 100%;
+    height: 50%;
+}
+
+.deta-des,
+.second-des,
+.deg-cond {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    color: #3feff8;
+}
+
+.deg {
+    display: flex;
+    gap: 5%;
+    margin: 0 0 1rem;
+}
+
+.deg-no {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    color: #3feff8;
+}
+
+.second {
+    width: 80%;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rgt-cntrl {
+    width: 80%;
+}
+
+.deta {
+    display: flex;
+    gap: 2%;
+    margin-bottom: 0.7rem;
+    width: 100%;
+}
+
+.form-src-dt-war {
+    background-color: white;
+    width: 40%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #dfdada;
+}
+
+.dt-war {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-bottom-color: #dfdada;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
+
+.dt-war-b {
+    color: #217a7e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.dt-war-a {
+    display: flex;
+}
+
+.dt-war-a-a {
+    margin-left: 5%;
+}
+
+.dt-war-h {
+    margin: 1rem 0 0;
+    color: #3d3c3c;
+}
+
+.dt-war-p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #3d3c3c;
+}
+
+.dt-time {
+    margin: 1rem 5% 0 auto;
+    color: #3d3c3c;
 }
