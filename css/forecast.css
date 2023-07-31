@@ -68,8 +68,7 @@ a {
 }
 
 .sva:hover {
-    color: #ffd218;
-   
+    color: #ffd218;   
 }
 
 .story {
@@ -108,4 +107,28 @@ a {
 
 .s-n-a {
     text-align: right;
+}
+
+form {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+
+.src-dir {
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #042e3c;
+    color: #e8f2f6;
+    border-style: none;
+    padding: 0.2rem 20%;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #217a7e;
 }
