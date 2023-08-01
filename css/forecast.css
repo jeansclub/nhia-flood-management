@@ -1,5 +1,5 @@
 body {
-    background-color: #c0e3f1;
+    background-color: #d2e7f0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
@@ -209,7 +209,6 @@ form {
 .deg-cond {
     padding: 0;
     margin: 0;
-    font-size: 0.8rem;
     color: #3feff8;
 }
 
@@ -217,6 +216,10 @@ form {
     display: flex;
     gap: 5%;
     margin: 0 0 1rem;
+}
+
+.deg-img {
+    width: 25%;
 }
 
 .deg-no {
@@ -227,7 +230,7 @@ form {
 }
 
 .second {
-    width: 80%;
+    width: 90%;
 }
 
 .right {
@@ -255,26 +258,26 @@ form {
     height: 20rem;
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
-    border-width: thin;
-    border-style: solid;
-    border-color: #dfdada;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px silver;
 }
 
 .dt-war {
     height: 3rem;
     display: flex;
     align-items: center;
-    border-bottom-color: #dfdada;
-    border-bottom-width: thin;
-    border-bottom-style: solid;
+    box-shadow: 0 0px 0 1px silver;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
 }
 
 .dt-war-b {
-    color: #217a7e;
-    font-size: 1.5rem;
+    color: #28989e;
+    font-size: 150%;
     font-weight: bold;
     margin-left: 5%;
+    width: 100%;
 }
 
 .dt-war-a {
@@ -298,5 +301,115 @@ form {
 
 .dt-time {
     margin: 1rem 5% 0 auto;
+    color: #3d3c3c;
+}
+
+.details {
+    width: 96%;
+    margin-left: 2%;
+    display: flex;
+    gap: 1%;
+}
+
+.hour-frm {
+    background-color: white;
+    width: 9.5%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px silver;
+}
+
+.hour {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0 1px silver;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    color: #3d3c3c;
+}
+
+.hour-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.hour-img {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.deg-fig {
+    margin: 0;
+    font-size: 145%;
+    color: #3d3c3c;
+}
+
+.deg-fig-des {
+    text-align: center;
+    margin: auto 0 30%;
+    width: 40%;
+    font-size: 90%;
+    color: #3d3c3c;
+}
+
+.b-detail {
+    background-color: white;
+    width: 26.5%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px silver;
+}
+
+.b-d-t {
+    color: #28989e;
+    height: 20%;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0 1px silver;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.b-d-d {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.b-d-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.b-d-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.b-d-cntrl {
+    width: 80%;
+    margin: 0 0 0 auto;
+}
+
+.ctl {
     color: #3d3c3c;
 }
