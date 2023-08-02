@@ -413,3 +413,48 @@ form {
 .ctl {
     color: #3d3c3c;
 }
+
+.ffl-stat {
+    background-color: #042e3c;
+    margin: 3rem 0;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.ftitl {
+    color: #e8f2f6;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ffl-st-con {
+    display: flex;
+    gap: 5%;
+    margin: 1.5rem auto;
+    width: 70%;
+}
+
+.fstat-fig {
+    border-style: none;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e8f2f6;
+}
+
+.ffig-n {
+    font-size: 4rem;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.ffig-a {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
