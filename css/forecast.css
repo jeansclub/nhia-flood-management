@@ -458,3 +458,67 @@ form {
     margin: 0;
     text-align: center;
 }
+
+.fimg-data {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.wm-ti {
+    color: #3d3c3c;
+    font-size: 2rem;
+    margin: 0 0 0 2%;
+    padding: 0;
+}
+
+.ffw-m {
+    display: flex;
+    gap: 1%;
+    margin: 2rem auto 3rem;
+    width: 96%;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+}
+
+.ff-wm {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 7px 12px -5px #3d3c3c;
+    height: 15rem;
+    min-width: 19rem;
+}
+
+.ff-wm-a {
+    background-image: url(image/Floods-in-Jalingo-Taraba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 70%;
+    width: 100%;
+}
+
+.ff-wm-b {
+    background-color: #ffd218;
+    height: 23%;
+    width: 96%;
+    padding: 0.5rem 2%;
+}
+
+.ff-wm-b-a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 0 5%;
+    padding: 0;
+    color: #3d3c3c;
+    width: 100%;
+    border-style: none;
+}
+
+.ff-wm-b-b {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin: 0 0 0 5%;
+    padding: 0;
+}
