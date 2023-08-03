@@ -460,7 +460,7 @@ form {
 }
 
 .fimg-data {
-    padding: 2rem 0;
+    padding: 2rem 0 0;
     width: 100%;
 }
 
@@ -521,4 +521,153 @@ form {
     font-weight: lighter;
     margin: 0 0 0 5%;
     padding: 0;
+}
+
+.wn-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:22rem 22rem ;
+    row-gap: 2rem;
+    column-gap: 1%;
+    margin: 2rem auto 10rem;
+    width: 96%;
+}
+
+.ff-wn {
+    width: 100%;
+}
+
+.ff-wn-a {
+    background-image: url(image/nigeria_flood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63%;
+    width: 100%;
+}
+
+.ff-wn-b {
+    background-color: #042e3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 28%;
+    width: 96%;
+    padding: 1rem 2%;
+}
+
+.ff-wn-b-a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 5% 1rem;
+    padding: 0;
+    color: #e8f2f6;
+    width: 90%;
+    border-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ff-wn-b-b {
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+
+.ff-wn-em {
+    margin: 0 5%;
+    padding: 0;
+    color: #e8f2f6;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #042e3c;
+    padding: 1rem 0 0.5rem;
+}
+
+.foo-co {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.foo-l {
+    margin: 0;
+    width: 25%;
+}
+
+.foo-bx {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 25%;
+}
+
+.foo-a {
+    border-style: none;
+    width: 100%;
+}
+
+.snd {
+    font-weight: normal;
+}
+
+.soc {
+    display: flex;
+    gap: 5%;
+    width: 60%;
+    margin-right: 10rem;
+}
+
+.foo-soc {
+    width: 30%;
+    border-style: none;
+}
+
+.soc-img {
+    width: 500%;
+}
+
+.pat-con {
+    width: 100%;
+}
+
+.pat {
+    color: #ece8e8;
+    font-size: 0.8rem;
+    margin: 0 0 0 1.5rem;
+    padding: 0 0.7rem 0 0;
+    font-weight: normal;
+}
+
+.pat-e {
+    padding-left: 0.7rem;
+}
+
+.part-w {
+    margin-bottom: 0.5rem;
+}
+
+.aa {
+    border-style: none;
+}
+
+.copy {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.copyrt {
+    color: #ece8e8;
+    font-size: 0.8rem;
+    margin: 0 0 0 40%;
+    font-weight: normal;
 }
