@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
 }
 
+body ::-webkit-scrollbar {
+    display: none;
+}
+
 section {
     width: 100%;
     margin: 0;
@@ -92,7 +96,7 @@ a {
     gap: 2%;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
 }
 
 .sub-n-a {
@@ -102,11 +106,12 @@ a {
 }
 
 .sub-n-a:hover {
-    color: #217a7e;
+    color: #28989e;
 }
 
 .s-n-a {
     text-align: right;
+    color: #28989e;
 }
 
 form {
@@ -478,12 +483,13 @@ form {
     width: 96%;
     overflow-x: scroll; 
     overflow-y: hidden;
+    padding: 0.5rem 0;
 }
 
 .ff-wm {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: 0 7px 12px -5px #3d3c3c;
+    box-shadow: 0 5px 10px -5px #3d3c3c;
     height: 15rem;
     min-width: 19rem;
 }

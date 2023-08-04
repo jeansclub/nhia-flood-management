@@ -1,0 +1,32 @@
+.s-n-a {
+    text-align: right;
+    color: black;
+}
+
+.s-n-b {
+    color: #28989e;
+}
+
+.form-src-dt-war {
+    height: 19rem;
+    padding: 0.5rem 2%;
+}
+
+.dt-war-h {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dt-war-p {
+    font-size: 1.5rem;
+}
+
+.dt-disc {
+    font-size: small;
+    margin-top: auto;
+    width: 100%;
+}
+
+.dt-disc-cap {
+    font-weight: bold;
+}
