@@ -66,3 +66,69 @@
     margin: 0 0 0.5rem 2%;
     width: 98%;
 }
+
+.act-rating {
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+.act-r-hd {
+    margin-left: 2%;
+    margin-top: 0;
+    width: 98%;
+}
+
+.act-rating-con {
+    margin: 0 2%;
+    width: 96%;
+}
+
+.rating-con {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.r-hd {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.r-par {
+    margin-top: 7px;
+    font-size: 0.7rem;
+}
+
+.act-con {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+
+.activity {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px silver;
+    height: 7rem;
+    padding: 1.5rem 1rem 1rem;
+    width: 16%;
+}
+
+.a-icon {
+    width: 2rem;
+}
+
+.a-a {
+    margin-bottom: 0.5rem;
+}
+
+.a-rb {
+    background-color: #135053;
+    border-radius: 100px;
+    height: 3px;
+    width: 3rem;
+}
+
+.r-sc {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
