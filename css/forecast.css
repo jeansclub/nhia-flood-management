@@ -224,7 +224,7 @@ form {
 }
 
 .deg-img {
-    width: 25%;
+    width: 6rem;
 }
 
 .deg-no {
@@ -255,6 +255,11 @@ form {
     gap: 2%;
     margin-bottom: 0.7rem;
     width: 100%;
+}
+
+.icon {
+    width: 1rem;
+    margin-right: 3%;
 }
 
 .form-src-dt-war {
@@ -296,6 +301,11 @@ form {
 .dt-war-h {
     margin: 1rem 0 0;
     color: #3d3c3c;
+}
+
+.caution {
+    width: 1.1rem;
+    margin-right: 0.5rem;
 }
 
 .dt-war-p {
@@ -565,7 +575,7 @@ form {
 .ff-wn-b-a {
     font-size: 1.2rem;
     font-weight: bold;
-    margin: 0 5% 1rem;
+    margin: 0 5% 1.5rem;
     padding: 0;
     color: #e8f2f6;
     width: 90%;
@@ -584,11 +594,44 @@ form {
 
 .ff-wn-em {
     margin: 0 5%;
-    padding: 0;
     color: #e8f2f6;
     width: 90%;
     display: flex;
+    gap: 1%;
     align-items: center;
+    position: relative;
+}
+
+.emoji {
+    width: 1rem;
+}
+
+.dis-em {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    width: 100%;
+}
+
+.em-count {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.em-pop {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: -2rem;
+    width: 40%;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 footer {
