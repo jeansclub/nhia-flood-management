@@ -67,6 +67,11 @@
     width: 98%;
 }
 
+.icon {
+    width: 1rem;
+    margin-right: 3%;
+}
+
 .act-rating {
     margin-bottom: 10rem;
     width: 100%;
