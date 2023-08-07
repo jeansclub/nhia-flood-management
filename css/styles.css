@@ -252,7 +252,11 @@ h3 {
 .deg {
     display: flex;
     gap: 5%;
-    margin: 0 0 1rem;
+    margin: 0;
+}
+
+.deg-img {
+    width: 4rem;
 }
 
 .deg-no {
@@ -275,7 +279,7 @@ h3 {
 }
 
 .rgt-cntrl {
-    width: 80%;
+    width: 90%;
 }
 
 .deta {
@@ -283,6 +287,11 @@ h3 {
     gap: 2%;
     margin-bottom: 0.7rem;
     width: 100%;
+}
+
+.icon {
+    width: 1rem;
+    margin-right: 4%;
 }
 
 .stm-a {
