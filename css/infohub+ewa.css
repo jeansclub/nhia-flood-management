@@ -1,0 +1,67 @@
+.ih-sub-nav {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sub-n-a {
+    width: fit-content;
+}
+
+.flood-data {
+    padding-bottom: 10rem;
+}
+
+form {
+    justify-content: left;
+    margin-left: 5%;
+}
+
+.form-src-loc {
+    margin: 0 0 0.5rem 5%;
+}
+
+.msg-con {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 1rem 3% 2rem;
+    width: 84%;
+}
+
+.msg-h,
+.loc-con {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.date {
+    margin-left: auto;
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.id {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.eff {
+    margin-left: auto;
+}
+
+.no-aff {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stat-alat {
+    margin-bottom: 0.5rem;
+}
