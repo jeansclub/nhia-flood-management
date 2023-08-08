@@ -16,10 +16,14 @@ body {
     box-shadow: 0 0 1px 1px #042e3c;
     border-radius: 5px;
     padding: 0 0 1.5rem;
-    position: absolute;
+    position: fixed;
     left: 30%;
     top: 11rem;
     width: 40%;
+}
+
+.s-n-b {
+    color: black;
 }
 
 .cancel-btn {
