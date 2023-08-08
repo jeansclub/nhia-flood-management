@@ -2,6 +2,10 @@
     color: #28989e;
 }
 
+.contact {
+    padding: 1rem 0 5rem;
+}
+
 .contact-con {
     background-color: white;
     margin: 0 auto;
@@ -51,4 +55,8 @@
 
 .img-name {
     margin-right: 2%;
+}
+
+.rem-line {
+    border-style: none;
 }
