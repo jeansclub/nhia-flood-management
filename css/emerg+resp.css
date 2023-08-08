@@ -1,0 +1,54 @@
+.s-n-b {
+    color: #28989e;
+}
+
+.contact-con {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 80%;
+}
+
+.cont-box {
+    border-bottom: solid 0.5px silver;
+    display: flex;
+    gap: 3%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 85%;
+}
+
+.cont-img {
+    width: 5rem;
+}
+
+.cont-add-box {
+    width: 100%;
+}
+
+.con-name {
+    margin-bottom: 0.5rem;
+}
+
+.con-sdd {
+    margin-bottom: 1rem;
+}
+
+.add {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.sm-cont {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.sm-img {
+    margin-right: 0.5%;
+    width: 1.5rem;
+}
+
+.img-name {
+    margin-right: 2%;
+}
