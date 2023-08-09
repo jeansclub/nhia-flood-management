@@ -1,0 +1,35 @@
+.fquest-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fquest-box {
+    background-color: white;
+}
+
+.fquest {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 3%;
+}
+
+.fquest-txt {
+    font-weight: bold;
+    margin: 0;
+}
+
+.t-btn {
+    background-color: transparent;
+    color: #042e3c;
+    border-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.fansa {
+    padding: 0 3% 1rem;
+}
