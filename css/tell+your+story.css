@@ -1,0 +1,103 @@
+body {
+    background-color: aliceblue;
+}
+
+.fl-story {
+    padding: 3rem 0 5rem;
+    width: 100%;
+}
+
+.story-con {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.story-h {
+    color: #042e3c;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.all-story {
+    height: 180vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.story-p {
+    width: 100%;
+}
+
+.story-box {
+    background-color: white;
+    padding: 0 0 2rem;
+    width: 100%;
+}
+
+.story-frm {
+    background-color: #042e3c;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    width: 90%;
+}
+
+.by-a {
+    font-weight: lighter;
+}
+
+.date-time {
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+}
+
+.pic-msg {
+    padding: 1.5rem 5% 0;
+    width: 90%;
+}
+
+.s-pic {
+    display: flex;
+    width: 100%;
+}
+
+.pics {
+    width: 50%;
+}
+
+.s-msg-h,
+.s-msg-m,
+.tell-us {
+    color: #3b1d08;
+}
+
+.ff-wn-em {
+    margin: 1rem 0 0;
+    padding: 0 5%;
+    width: 90%;  
+}
+
+.story-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.story-btn {
+    background-color: #042e3c;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    margin-left: 2%;
+    padding: 0.2rem 2%;
+    width: 15%;
+}
+
+.pen-icon {
+    margin-left: 0.5rem;
+    width: 1rem;
+}
