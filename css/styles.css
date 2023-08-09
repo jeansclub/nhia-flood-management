@@ -122,6 +122,14 @@ h3 {
     border-style: none;
     background-color: #ffd218;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.cr-img {
+    margin-left: 0.5rem;
+    width: 1rem;
 }
 
 .info-con {
