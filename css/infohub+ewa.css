@@ -60,9 +60,10 @@ label {
 
 .name-deatails {
     height: 1.5rem;
-    border-radius: 5px;
+    border-radius: 3px;
     border-style: none;
-    box-shadow: 0 0 1px 1px silver;
+    box-shadow: 0 0 3px 0.5px silver;
+    padding: 0.2rem 2%;
 }
 
 .ques {

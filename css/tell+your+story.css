@@ -2,6 +2,70 @@ body {
     background-color: aliceblue;
 }
 
+.story-form {
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 10rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    width: 60%;
+    z-index: 1;
+}
+
+.loc-inp {
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.state {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 40%;
+}
+
+.lga-a {
+    margin-left: auto;
+}
+
+.experience {
+    height: 6rem;
+}
+
+textarea {
+    border-style: none;
+    box-shadow: 0 0 3px 0.5px silver;
+}
+
+.for-img {
+    align-items: end;
+    display: flex;
+}
+
+.img-vid {
+    border-style: dashed;
+    border-color: silver;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 8rem;
+}
+
+.vid {
+    width: 75%;
+}
+
+.vid-a {
+    color: blue;
+    text-decoration: underline;
+    width: fit-content;
+}
+
 .fl-story {
     padding: 3rem 0 5rem;
     width: 100%;
