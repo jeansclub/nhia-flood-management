@@ -1,0 +1,34 @@
+.ff-heda {
+    background-color: transparent;
+    color: #042e3c;
+}
+
+.about-cont {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem 3%;
+    width: 80%;
+}
+
+.about-box {
+    margin-bottom: 2rem;
+}
+
+.sth-im {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sth-logo {
+    height: 7rem;
+    width: 15rem;
+}
+
+.noa {
+    width: 20rem;
+}
+
+footer {
+    margin-top: 5rem;
+}
