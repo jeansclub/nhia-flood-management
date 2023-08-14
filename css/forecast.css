@@ -597,20 +597,44 @@ form {
     color: #e8f2f6;
     width: 90%;
     display: flex;
-    gap: 1%;
+    gap: 3%;
     align-items: center;
     position: relative;
+}
+
+.emoji-btn {
+    background-color: transparent;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.emopop-btn {
+    background-color: transparent;
+    border-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .emoji {
     width: 1rem;
 }
 
+.emoji1 {
+    width: 1rem;
+}
+
+.emoji2 {
+    width: 1rem;
+}
+
 .dis-em {
+    background-color: transparent;
+    border-style: none;
     display: flex;
     gap: 3%;
     align-items: center;
-    width: 100%;
+    width: 15%;
 }
 
 .em-count {
@@ -622,7 +646,7 @@ form {
 .em-pop {
     background-color: whitesmoke;
     border-radius: 20px;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
