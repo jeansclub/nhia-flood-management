@@ -34,10 +34,14 @@ for (let index = 0; index < document.querySelectorAll(".emoji-btn").length; inde
 for (let index = 0; index < document.querySelectorAll(".emopop-btn").length; index++) {    
     document.querySelectorAll(".emopop-btn")[index].addEventListener("click", function() {
         
+        var addHtml = this.innerHTML;
         var emoCon2 = this.parentElement;
+        this.parentElement.nextElementSibling.innerHTML += addHtml;
+        this.parentElement.nextElementSibling.nextElementSibling.innerHTML = this.parentElement.nextElementSibling.childElementCount;
 
         if (emoCon2.style.display === "flex") {
            emoCon2.style.display = "none";
-        }    
-    });   
+        }
+
+    }); 
 }

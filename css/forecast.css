@@ -634,6 +634,7 @@ form {
     display: flex;
     gap: 3%;
     align-items: center;
+    overflow: hidden;
     width: 15%;
 }
 
