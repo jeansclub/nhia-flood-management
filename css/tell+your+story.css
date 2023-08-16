@@ -5,6 +5,7 @@ body {
 .story-form {
     background-color: white;
     position: absolute;
+    /*display: none;*/
     left: 20%;
     top: 10rem;
     margin: 0 auto;
@@ -86,10 +87,6 @@ textarea {
     height: 180vh;
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 100%;
-}
-
-.story-p {
     width: 100%;
 }
 

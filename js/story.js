@@ -1,4 +1,5 @@
 
+
 for (let index = 0; index < document.querySelectorAll(".emoji-btn").length; index++) {
     document.querySelectorAll(".emoji-btn")[index].addEventListener("click", function() {
       
@@ -31,15 +32,9 @@ for (let index = 0; index < document.querySelectorAll(".emopop-btn").length; ind
 }
 
 
-var today = new Date();
-var time = today.getHours()+ ":" + today.getMinutes();
+document.querySelector(".cancel-btn").addEventListener("click", removeForm);
 
-for (let index = 0; index < document.querySelectorAll(".hour").length; index++) {
-    
-    document.querySelectorAll(".hour")[index].innerHTML = time;
+function removeForm() {
+    document.querySelector(".fb-body").style.display = "none";
+    document.querySelector(".s-n-b").style.color = "#28989e";
 }
-
-
-
-
-document.querySelector(".dt-time").innerHTML = time;
