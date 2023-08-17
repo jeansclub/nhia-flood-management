@@ -231,6 +231,7 @@ h3 {
 .time {
     margin-left: auto;
     color: #3feff8;
+    width: fit-content;
 }
 
 .no2 {
@@ -297,9 +298,14 @@ h3 {
     width: 100%;
 }
 
+.icon-div { 
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+}
+
 .icon {
     width: 1rem;
-    margin-right: 4%;
 }
 
 .stm-a {
@@ -640,4 +646,417 @@ footer {
     font-size: 0.8rem;
     margin: 0 0 0 40%;
     font-weight: normal;
+}
+
+
+
+            /*SITE RESPONSIVENESS*/
+
+@media (min-width: 651px) and (max-width: 1000px) {
+    
+    .feats-con {
+        width: 80%;
+    }
+
+    .samp-con {
+        height: 17rem;
+    }
+    
+    h3,
+    .deg-no {
+        font-size: 1.3rem;
+    } 
+
+    .ex,
+    .fl-a,
+    .info,
+    .feat-a,
+    .fl-inf,
+    .time, 
+    .des,
+    .deta-des,
+    .second-des,
+    .deg-cond {
+        font-size: 0.8rem;  
+    }  
+    
+    .cr-img,
+    .icon {
+        width: 0.8rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .hd {
+        font-size: 0.65rem;
+    }
+    
+    h2,
+    .fl-h {
+        font-size: 1.5rem;
+    }
+
+    .deg-img {
+        width: 2rem;
+    }
+
+    .mid-con {
+        width: 22vh;
+        height: 22vh;
+    }
+    
+    .word {
+        font-size: 1.3rem;
+    }
+
+    .fl-st-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .fig-n {
+        font-size: 3rem;
+    }
+    
+    .fig-a {
+        font-size: 1rem;
+    }
+
+    .winf-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 80%;
+    }
+    
+    .wfo {
+        width: 80%;
+    }
+
+    .phn {
+        height: 30rem;
+        gap: 10%;
+    }
+    
+    
+    .iPhone {
+        width: 10rem;
+        height: 20rem;
+        border-radius: 25px;
+    }
+    
+    .third {
+        width: 10rem;
+        bottom: 0;
+        right: 37%;
+        border-radius: 25px;
+    }
+
+    .d-bt {
+        width: 80%;
+        margin: 0 auto 7rem;
+        gap: 15%;
+    }
+    
+    .andr {
+        text-align: center;
+        width: 25%;
+    }
+    
+    .for-p {
+        font-size: 1.3rem;
+    }
+    
+    .google {
+        border-radius: 5px;
+        height: 4rem;
+    }
+    
+    .apple {
+        border-radius: 5px;
+        height: 4rem;
+    }
+
+    .foo-co {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .foo-l {
+        margin: 0;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .foo-bx {
+        align-items: center;
+        font-size: 0.8rem;
+        width: 70%;
+    }
+    
+    .soc {
+        justify-content: center;
+        gap: 15%;
+        margin: 0 0 1rem;
+        padding: 0;
+        width: 70%;
+    }
+    
+    .soc-img {
+        width: 2rem;
+    }
+    
+    .pat-con {
+        text-align: center;
+    }
+    
+    .pat {
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0 0.7rem 0 0;
+        text-align: center;
+    }
+    
+    .pat-e {
+        padding-left: 0rem;
+    }
+    
+    .part-w {
+        margin-bottom: 0.5rem;
+    }
+    
+    .aa {
+        border-style: none;
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+    .copyrt {
+        font-size: 0.75rem;
+        margin: 0;
+    }
+}
+
+
+            /*BELOW TABLET SCREEN SIZE*/
+
+@media (max-width: 650px) {
+    
+    .feats-con {
+        width: 90%;
+    }
+
+    .samp-con {
+        height: 14rem;
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        width: 55%;
+        justify-content: start;
+    }
+
+    .first {
+        height: 40%;
+    }
+
+    .second {
+    width: 90%;
+    }
+    
+    .ex,
+    .info,
+    .fl-a,
+    .fl-inf,
+    .feat-a,
+    .time, 
+    .des,
+    .deg-no,
+    .deta-des,
+    .second-des,
+    .deg-cond {
+        font-size: 0.6rem; 
+    }
+    
+    .cr-img,
+    .icon {
+        width: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hd {
+        font-size: 0.5rem;
+    }
+    
+    h2,
+    h3,
+    .fl-h {
+        font-size: 1rem;
+    }
+
+    .deg-img {
+        width: 1rem;
+    }
+
+    .mid-con {
+        width: 17vh;
+        height: 17vh;
+    }
+    
+    .word {
+        font-size: 1rem;
+    }
+
+    .fl-st-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .fig-n {
+        font-size: 2rem;
+    }
+    
+    .fig-a {
+        font-size: 0.8rem;
+    }
+
+    .winf-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 80%;
+    }
+    
+    .wfo {
+        width: 80%;
+    }
+
+    .phn {
+        height: 14rem;
+        gap: 10%;
+    }
+    
+    
+    .iPhone {
+        width: 5rem;
+        height: 10rem;
+        border-radius: 12px;
+    }
+    
+    .third {
+        width: 5rem;
+        bottom: 0;
+        right: 37%;
+        border-radius: 12px;
+    }
+
+    .d-bt {
+        width: 80%;
+        margin: 0 auto 7rem;
+        gap: 10%;
+    }
+    
+    .andr {
+        text-align: center;
+        width: 25%;
+    }
+    
+    .for-p {
+        font-size: 1rem;
+    }
+    
+    .google {
+        border-radius: 5px;
+        height: 3rem;
+    }
+    
+    .apple {
+        border-radius: 5px;
+        height: 3rem;
+    }
+
+    .foo-co {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .foo-l {
+        margin: 0;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .foo-bx {
+        align-items: center;
+        font-size: 0.7rem;
+        width: 70%;
+    }
+    
+    .soc {
+        justify-content: center;
+        gap: 10%;
+        margin: 0 0 1rem;
+        padding: 0;
+        width: 70%;
+    }
+    
+    .soc-img {
+        width: 1.5rem;
+    }
+    
+    .pat-con {
+        text-align: center;
+    }
+    
+    .pat {
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0 0.7rem 0 0;
+        text-align: center;
+    }
+    
+    .pat-e {
+        padding-left: 0rem;
+    }
+    
+    .part-w {
+        margin-bottom: 0.5rem;
+    }
+    
+    .aa {
+        border-style: none;
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+    .copyrt {
+        font-size: 0.65rem;
+        margin: 0;
+    }
 }
