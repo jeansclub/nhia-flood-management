@@ -19,10 +19,12 @@ nav {
     display: flex;
     align-items: center;
     padding: 1rem 0;
+    width: 100%;
 }
 
 .logo {
-    margin-left: 50px;
+    margin-left: 3.125rem;
+    width: fit-content;
 }
 
 h1 {
@@ -41,8 +43,12 @@ h1 {
 }
 
 .menu-bx {
-    display: flex;
     margin: 0 3.125rem 0 auto;
+    position: relative;
+}
+
+.menu-con {
+    display: flex;
 }
 
 .menu {
@@ -59,7 +65,7 @@ h1 {
 
 a {
     padding: 0 1.25rem;
-    width: 100%;
+    width: fit-content;
     border-right: solid 1px;
     border-color: #e8f2f6;
     text-decoration: none;
@@ -652,7 +658,64 @@ footer {
 
             /*SITE RESPONSIVENESS*/
 
-@media (min-width: 651px) and (max-width: 1000px) {
+@media (min-width: 651px) and (max-width: 1100px) {
+
+    nav {
+        position: relative;
+    }
+
+    .logo-bx {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .my-toggle-f {
+        background-color: #e8f2f6;
+        transition: 400ms;
+    }
+
+    .my-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #e8f2f6;
+        margin-right: 1.25rem;
+        height: 2rem;
+        width: 2rem;
+        box-shadow: 0 0 4px 2px #e8f2f6;;
+    }
+    
+    .tog-btn {
+        background-color: #e8f2f6;
+        border-radius: 50px;
+        height: 0.2rem;
+        width: 80%;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .menu-bx {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 2rem;
+        position: relative;
+        width: 50%;
+    }
+
+    .menu-con {
+        display: none;
+        text-align: right;
+    }
+
+    a {
+        font-size: 0.8rem;
+        border-style: none;
+    }
     
     .feats-con {
         width: 80%;
@@ -667,6 +730,7 @@ footer {
         font-size: 1.3rem;
     } 
 
+    a,
     .ex,
     .fl-a,
     .info,
@@ -852,6 +916,63 @@ footer {
             /*BELOW TABLET SCREEN SIZE*/
 
 @media (max-width: 650px) {
+
+    nav {
+        position: relative;
+    }
+
+    .logo-bx {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .my-toggle-f {
+        background-color: #e8f2f6;
+        transition: 400ms;
+    }
+
+    .my-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #e8f2f6;
+        margin-right: 1.25rem;
+        height: 2rem;
+        width: 2rem;
+        box-shadow: 0 0 4px 2px #e8f2f6;
+    }
+    
+    .tog-btn {
+        background-color: #e8f2f6;
+        border-radius: 50px;
+        height: 0.2rem;
+        width: 80%;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .menu-bx {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 1rem;
+        position: relative;
+        width: 50%;
+    }
+
+    .menu-con {
+        display: none;
+        text-align: right;
+    }
+
+    a {
+        font-size: 0.7rem;
+        border-style: none;
+    }
     
     .feats-con {
         width: 90%;
