@@ -26,7 +26,8 @@ nav {
 }
 
 .logo {
-    margin-left: 2%;
+    margin-left: 2rem;
+    width: fit-content;
 }
 
 h1 {
@@ -45,8 +46,8 @@ h1 {
 }
 
 .menu-bx {
-    display: flex;
-    margin: 0 2% 0 auto;
+    margin: 0 2rem 0 auto;
+    position: relative;
 }
 
 .menu-con {
@@ -259,6 +260,12 @@ form {
     gap: 2%;
     margin-bottom: 0.7rem;
     width: 100%;
+}
+
+.icon-div { 
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
@@ -749,4 +756,671 @@ footer {
     font-size: 0.8rem;
     margin: 0 0 0 40%;
     font-weight: normal;
+}
+
+
+
+/*----------- RESPONSIVENESS-----------*/
+
+@media (min-width: 651px) and (max-width: 1100px) {
+   
+    nav {
+        position: relative;
+    }
+
+    .logo-bx {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .hd {
+        font-size: 0.62rem;
+    }
+
+    .my-toggle-f {
+        background-color: #e8f2f6;
+        transition: 400ms;
+    }
+
+    .my-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #e8f2f6;
+        height: 2rem;
+        margin-right: 1.25rem;
+        width: 2rem;
+        box-shadow: 0 0 4px 2px #e8f2f6;;
+    }
+    
+    .tog-btn {
+        background-color: #e8f2f6;
+        border-radius: 50px;
+        height: 0.2rem;
+        width: 80%;
+    }
+
+    .menu-bx {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 2rem;
+        position: relative;
+        width: 50%;
+    }
+
+    .menu-con {
+        display: none;
+        text-align: right;
+    }
+
+    a {
+        font-size: 0.8rem;
+        border-style: none;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-left: 10%;
+    }
+
+    .form-src-loc {
+        font-size: 0.8rem;
+        margin-left: 12%;
+    }
+
+    .src-dir {
+        font-size: 0.8rem;
+    }
+
+    label {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        width: fit-content;
+        padding: 0.5rem 1rem;
+    }
+
+    .form-src-dt {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .samp-con {
+        height: 25rem;
+        width: 80%;
+    }
+    
+    h3,
+    .deg-no {
+        font-size: 1.3rem;
+    } 
+
+    a,
+    .ex,
+    .fl-a,
+    .info,
+    .feat-a,
+    .fl-inf,
+    .time, 
+    .des,
+    .deta-des,
+    .second-des,
+    .deg-cond {
+        font-size: 0.8rem;  
+    }  
+    
+    .cr-img,
+    .icon {
+        width: 0.8rem;
+    }
+
+    .deg-img {
+        width: 2rem;
+    }
+
+    .form-src-dt-war {
+        height: 20rem;
+        width: 70%;
+    }
+    
+    .dt-war {
+        height: 2rem;
+    }
+    
+    .dt-war-b {
+        font-size: 1.2rem;
+    }
+    
+    .dt-war-h {
+        font-size: 1.2rem;
+    }
+    
+    .caution {
+        width: 0.9rem;
+    }
+    
+    .dt-war-p {
+        font-size: 0.8rem;
+    }
+    
+    .dt-time {
+        font-size: 0.8rem;
+    }
+
+    .deg-fig-des,
+    .deg-fig {
+        font-size: 0.9rem;
+    }
+
+    .hr-1,
+    .des-1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .des-2 {
+        margin-top: 1.5rem;
+    }
+
+    .deg-fig {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .b-detail {
+        background-color: white;
+        width: 50%;
+        height: 17rem;
+    }
+    
+    .hour-frm {
+        width: 40%;
+        height: 17rem;       
+    }
+
+    .ftitl {
+        font-size: 1.5rem;
+    }
+
+    .ffig-n {
+        font-size: 2rem;
+    }
+    
+    .ffig-a {
+        font-size: 1.3rem;
+    }
+
+    .wm-ti {
+        font-size: 1.2rem;
+    }
+
+    .ff-wm-b-a {
+        font-size: 1.2rem;
+    }
+    
+    .ff-wm-b-b {
+        font-size: 0.7rem;
+    }
+
+    .ff-wm {
+        height: 10rem;
+        min-width: 14rem;
+    }
+
+    .wn-con {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    } 
+    
+    .ff-wn {
+        width: 50%;
+        height: 15rem;
+    }
+
+    .ff-wn-b-a {
+        font-size: 0.8rem;
+    }
+    
+    .ff-wn-b-b {
+        font-size: 0.6rem;
+    }
+
+    .em-count {
+        font-size: 0.8rem;
+    }
+
+    .emoji,
+    .emoji1,
+    .emoji2 {
+        width: 0.8rem;
+    }
+
+    .foo-co {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .foo-l {
+        margin: 0;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .foo-bx {
+        align-items: center;
+        font-size: 0.8rem;
+        width: 70%;
+    }
+    
+    .soc {
+        justify-content: center;
+        gap: 15%;
+        margin: 0 0 1rem;
+        padding: 0;
+        width: 70%;
+    }
+    
+    .soc-img {
+        width: 2rem;
+    }
+    
+    .pat-con {
+        text-align: center;
+    }
+    
+    .pat {
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0 0.7rem 0 0;
+        text-align: center;
+    }
+    
+    .pat-e {
+        padding-left: 0rem;
+    }
+    
+    .part-w {
+        margin-bottom: 0.5rem;
+    }
+    
+    .aa {
+        border-style: none;
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+    .copyrt {
+        font-size: 0.75rem;
+        margin: 0;
+    }
+}
+
+
+
+
+
+/*----------- RESPONSIVENESS MOBILE PHONE SCREEN-----------*/
+
+@media (max-width: 650px) {
+   
+    nav {
+        position: relative;
+    }
+
+    .logo-bx {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hd {
+        font-size: 0.5rem;
+    }
+
+    .my-toggle-f {
+        background-color: #e8f2f6;
+        transition: 400ms;
+    }
+
+    .my-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #e8f2f6;
+        height: 2rem;
+        margin-right: 1.25rem;
+        width: 2rem;
+        box-shadow: 0 0 4px 2px #e8f2f6;
+    }
+    
+    .tog-btn {
+        background-color: #e8f2f6;
+        border-radius: 50px;
+        height: 0.2rem;
+        width: 80%;
+    }
+
+    .menu-bx {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 1rem;
+        position: relative;
+        width: 50%;
+    }
+
+    .menu-con {
+        display: none;
+        text-align: right;
+    }
+
+    a {
+        font-size: 0.7rem;
+        border-style: none;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-left: 12%;
+    }
+
+    .form-src-loc {
+        font-size: 0.7rem;
+        margin-left: 12%;
+    }
+
+    .src-dir {
+        font-size: 0.7rem;
+    }
+
+    label {
+        font-size: 0.7rem;
+    }
+
+    .btn {
+        width: fit-content;
+        padding: 0.3rem 0.7rem;
+    }
+
+    .form-src-dt {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .samp-con {
+        height: 20rem;
+        width: 80%;
+    }
+
+    .ex,
+    .info,
+    .fl-a,
+    .fl-inf,
+    .feat-a,
+    .time, 
+    .des,
+    .deg-no,
+    .deta-des,
+    .second-des,
+    .deg-cond {
+        font-size: 0.6rem; 
+    }
+    
+    .cr-img,
+    .icon {
+        width: 0.5rem;
+    }
+
+    .hour-img {
+        margin-bottom: 1.5rem;
+        width: 2rem;
+    }
+
+    .deg-img {
+        width: 2rem;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        width: 50%;
+        justify-content: start;
+    }
+
+    .first {
+        height: 40%;
+    }
+
+    .second {
+    width: 90%;
+    }
+
+    .form-src-dt-war {
+        height: 20rem;
+        width: 70%;
+    }
+    
+    .dt-war {
+        height: 2rem;
+    }
+    
+    .dt-war-b {
+        font-size: 1rem;
+    }
+    
+    .dt-war-h {
+        font-size: 1rem;
+    }
+    
+    .caution {
+        width: 0.8rem;
+    }
+    
+    .dt-war-p {
+        font-size: 0.7rem;
+    }
+    
+    .dt-time {
+        font-size: 0.7rem;
+    }
+
+    .deg-fig-des {
+        font-size: 0.8rem; 
+    }
+
+    .hr-1,
+    .des-1 {
+        margin-bottom: 1rem;
+    }
+
+    .des-2 {
+        margin-top: 1rem;
+    }
+
+    .deg-fig {
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .b-detail {
+        background-color: white;
+        width: 50%;
+        height: 15rem;
+    }
+    
+    .hour-frm {
+        width: 40%;
+        height: 15rem;       
+    }
+
+    .ftitl {
+        font-size: 1rem;
+    }
+
+    .ffig-n {
+        font-size: 1.3rem;
+    }
+    
+    .ffig-a {
+        font-size: 0.9rem;
+    }
+
+    .wm-ti {
+        font-size: 1rem;
+    }
+
+    .ff-wm-b-a {
+        font-size: 1rem;
+    }
+    
+    .ff-wm-b-b {
+        font-size: 0.6rem;
+    }
+
+    .ff-wm {
+        height: 9rem;
+        min-width: 12rem;
+    }
+    .wn-con {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    } 
+    
+    .ff-wn {
+        width: 50%;
+        height: 12rem;
+    }
+
+    .ff-wn-b-a {
+        font-size: 0.7rem;
+    }
+    
+    .ff-wn-b-b {
+        font-size: 0.5rem;
+    }
+
+    .em-count {
+        font-size: 0.7rem;
+    }
+
+    .emoji,
+    .emoji1,
+    .emoji2 {
+        width: 0.7rem;
+    }
+
+    .foo-co {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .foo-l {
+        margin: 0;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .foo-bx {
+        align-items: center;
+        font-size: 0.7rem;
+        width: 70%;
+    }
+    
+    .soc {
+        justify-content: center;
+        gap: 10%;
+        margin: 0 0 1rem;
+        padding: 0;
+        width: 70%;
+    }
+    
+    .soc-img {
+        width: 1.5rem;
+    }
+    
+    .pat-con {
+        text-align: center;
+    }
+    
+    .pat {
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0 0.7rem 0 0;
+        text-align: center;
+    }
+    
+    .pat-e {
+        padding-left: 0rem;
+    }
+    
+    .part-w {
+        margin-bottom: 0.5rem;
+    }
+    
+    .aa {
+        border-style: none;
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+    .copyrt {
+        font-size: 0.65rem;
+        margin: 0;
+    }
 }

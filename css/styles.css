@@ -750,13 +750,14 @@ footer {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .hd {
-        font-size: 0.65rem;
+        font-size: 0.62rem;
     }
     
+    .titl,
     h2,
     .fl-h {
         font-size: 1.5rem;
@@ -1022,6 +1023,10 @@ footer {
         font-size: 2rem;
     }
 
+    .titl {
+        font-size: 1.5rem;
+    }
+
     .hd {
         font-size: 0.5rem;
     }
@@ -1033,7 +1038,7 @@ footer {
     }
 
     .deg-img {
-        width: 1rem;
+        width: 2rem;
     }
 
     .mid-con {

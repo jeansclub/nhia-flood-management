@@ -115,7 +115,7 @@
     box-shadow: 0 0 1px 1px silver;
     height: 7rem;
     padding: 1.5rem 1rem 1rem;
-    width: 16%;
+    min-width: 13rem;
 }
 
 .a-icon {
@@ -136,4 +136,148 @@
 .r-sc {
     font-weight: bold;
     margin-top: 0.5rem;
+}
+
+
+
+
+
+
+/*-------------RESPONSIVENESS---------------*/
+
+@media (min-width: 651px) and (max-width: 1100px) {
+
+    .ff-heda {
+        font-size: 1.5rem;
+    }
+
+    .dt-war-h {
+        font-size: 1.2rem;
+    }
+    
+    .caution {
+        width: 1rem;
+    }
+    
+    .dt-war-p {
+        font-size: 1.2rem;
+    }
+    
+    .dt-disc {
+        font-size: 0.8rem;
+    }
+
+    .timely {
+        font-size: 1.2rem;
+        margin: 3rem 0 1rem;
+        text-align: center;
+    }
+
+    .act-r-hd {
+        font-size: 1.2rem;
+    }
+
+    .r-hd {
+        font-size: 1rem;
+    }
+
+    .act-con {
+        flex-wrap: wrap;
+    }
+
+    .activity {
+        height: 7rem;
+        min-width: 12rem;
+        max-width: 12rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .a-icon {
+        width: 2rem;
+    }
+    
+    .a-a {
+        font-size: 0.8rem;
+    }
+
+    .r-sc {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+/*-------------MOBILE SCREEN SIZE---------------*/
+
+@media (max-width: 650px) {
+
+    .ff-heda {
+        font-size: 1rem;
+    } 
+
+    .dt-war-h {
+        font-size: 1rem;
+    }
+    
+    .caution {
+        width: 0.9rem;
+    }
+    
+    .dt-war-p {
+        font-size: 0.9rem;
+    }
+    
+    .dt-disc {
+        font-size: 0.7rem;
+    }
+
+    .timely {
+        font-size: 1rem;
+        margin: 3rem 0 1rem;
+        text-align: center;
+    }
+
+    .act-r-hd {
+        font-size: 1rem;
+        margin-left: 7%;
+        width: 90%;
+    }
+
+    .r-hd {
+        font-size: 0.9rem;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .r-par {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .act-con {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    .activity {
+        height: 6rem;
+        min-width: 10rem;
+        max-width: 10rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .a-icon {
+        width: 1.5rem;
+    }
+    
+    .a-a {
+        font-size: 0.7rem;
+    }
+
+    .r-sc {
+        font-size: 0.7rem;
+    }
 }
