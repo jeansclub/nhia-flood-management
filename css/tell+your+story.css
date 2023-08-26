@@ -5,7 +5,6 @@ body {
 .story-form {
     background-color: white;
     position: absolute;
-    /*display: none;*/
     left: 20%;
     top: 10rem;
     margin: 0 auto;
@@ -161,4 +160,183 @@ textarea {
 .pen-icon {
     margin-left: 0.5rem;
     width: 1rem;
+}
+
+
+
+
+/*-------------RESPONSIVENESS---------------*/
+
+@media (min-width: 651px) and (max-width: 1100px) {
+    .story-form {
+        left: 10%;
+        width: 80%;
+    } 
+
+    .loc-inp {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .state {
+        gap: 0.3rem;
+        width: 100%;
+    }
+    
+    .lga-a {
+       margin: 0;
+    }
+
+    .ques {
+        font-size: 0.8rem;
+    }
+
+    .for-img {
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .vid-a {
+        padding: 0;
+        width: fit-content;
+    }
+
+    .img-vid {
+        height: 5rem;
+        width: 7rem;
+    }
+    
+    .vid {
+        width: 65%;
+    }
+
+    .story-h {
+        font-size: 1.3rem;
+    }
+
+    .story-con {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .s-msg-h,
+    .by {
+        font-size: 1rem;
+    }
+
+    .date-time {
+        font-size: 0.8rem;
+    }
+
+    .story-place {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .tell-us {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .story-btn {
+        align-items: center;
+        margin: 0;
+        width: fit-content;
+    }
+    
+    .pen-icon {
+        width: 0.8rem;
+    }
+}
+
+
+
+
+
+/*-------------MOBILE PHONE SCREEN---------------*/
+
+@media (max-width: 650px) {
+    .story-form {
+        left: 5%;
+        width: 90%;
+    } 
+
+    .loc-inp {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .state {
+        gap: 0.3rem;
+        width: 100%;
+    }
+    
+    .lga-a {
+       margin: 0;
+    }
+
+    .ques {
+        font-size: 0.7rem;
+    }
+
+    .for-img {
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .vid-a {
+        padding: 0;
+        width: fit-content;
+    }
+
+    .img-vid {
+        height: 4rem;
+        width: 6rem;
+    }
+    
+    .vid {
+        width: 60%;
+    }
+
+    .story-h {
+        font-size: 1rem;
+    }
+
+    .story-con {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .s-msg-h,
+    .by {
+        font-size: 0.8rem;
+    }
+
+    .date-time {
+        font-size: 0.6rem;
+    }
+
+    .story-place {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .tell-us {
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+    }
+    
+    .story-btn {
+        align-items: center;
+        margin: 0;
+        width: fit-content;
+    }
+    
+    .pen-icon {
+        width: 0.7rem;
+    }
 }
