@@ -3,6 +3,7 @@ body {
 }
 
 .midle {
+    margin-bottom: 5rem;
     padding: 1rem 0 3rem;
     width: 100%;
 }
@@ -10,18 +11,57 @@ body {
 .instruct {
     background-color: white;
     margin: 0 auto;
-    min-height: 120vh;
-    padding: 2rem 3%;
+    padding: 2rem 3% 3rem;
     width: 80%;
 }
 
 .instruct-img {
     float: left;
     margin: 0 4% 2rem 0;
-    height: 20rem;
-    width: 40%;
+    width: 50%;
 }
 
 p {
     margin: 0 0 1rem;
+}
+
+
+
+
+/*-------------RESPONSIVENESS---------------*/
+
+@media (min-width: 651px) and (max-width: 1100px) {
+    .instruct {
+        width: 80%;
+    }
+    
+    .instruct-img {
+        margin: 0 2% 1rem 0;
+        width: 50%;
+    }
+    
+    p {
+        font-size: 0.8rem;
+    }   
+}
+
+
+
+
+
+/*-------------MOBILE PHONE SCREEN---------------*/
+
+@media (max-width: 650px) {
+    .instruct {
+        width: 90%;
+    }
+    
+    .instruct-img {
+        margin: 0 2% 0.5rem 0;
+        width: 60%;
+    }
+    
+    p {
+        font-size: 0.6rem;
+    } 
 }
