@@ -74,6 +74,7 @@ label {
 .chekb-con {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
@@ -240,6 +241,29 @@ p, h3 {
     .stat-msg {
         font-size: 0.8rem;
     }
+
+    .feedback-con {
+        position: absolute;
+        left: 10%;
+        top: 11rem;
+        width: 80%;
+    }
+
+    .fb-h {
+        font-size: 1.5rem;
+    }
+
+    .chekb-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buton {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: start;
+    }
 }
 
 
@@ -293,5 +317,28 @@ p, h3 {
 
     .stat-msg {
         font-size: 0.7rem;
+    }
+
+    .feedback-con {
+        position: absolute;
+        left: 10%;
+        top: 11rem;
+        width: 80%;
+    }
+
+    .fb-h {
+        font-size: 1rem;
+    }
+
+    .chekb-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buton {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: start;
     }
 }
