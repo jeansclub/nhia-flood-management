@@ -183,3 +183,115 @@ p, h3 {
 .stat-alat {
     margin-bottom: 0.5rem;
 }
+
+
+
+
+
+
+/*-------------RESPONSIVENESS---------------*/
+
+@media (min-width: 651px) and (max-width: 1100px) {
+   
+    .msg-con {
+        padding: 2rem 7.5% 2rem;
+        width: 75%;
+    }
+
+    .msg-h,
+    .loc-con {
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
+    }
+
+    .date {
+        margin: 0;
+    }
+
+    .dt-war-h {
+        margin: 0;
+    }
+
+    .dt-war-h {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .eff {
+        display: flex;
+        gap: 2rem;
+        margin: 1.5rem 0 0;
+
+    }
+
+    .id {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+    .stat-alat,
+    .address,
+    .no-aff {
+        font-size: 0.8rem;
+    }
+
+    .stat-msg {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+/*-------------MOBILE PHONE SCREEN---------------*/
+
+@media (max-width: 650px) {
+   
+    .msg-con {
+        padding: 2rem 7.5% 2rem;
+        width: 75%;
+    }
+
+    .msg-h,
+    .loc-con {
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
+    }
+
+    .date {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .dt-war-h {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .eff {
+        display: flex;
+        gap: 2rem;
+        margin: 1.5rem 0 0;
+
+    }
+
+    .id {
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    
+    .stat-alat,
+    .address,
+    .no-aff {
+        font-size: 0.7rem;
+    }
+
+    .stat-msg {
+        font-size: 0.7rem;
+    }
+}
