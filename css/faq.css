@@ -51,7 +51,11 @@
 /*-------------RESPONSIVENESS---------------*/
 
 @media (min-width: 651px) and (max-width: 1100px) {
-    
+    .fquest-txt,
+    .t-sign,
+    .fansa {
+        font-size: 0.8rem;
+    }
 }
 
 
