@@ -25,7 +25,7 @@ nav {
     padding: 1rem 0;
 }
 
-.logo {
+.logo-bx {
     margin-left: 2rem;
     width: fit-content;
 }
@@ -46,8 +46,71 @@ h1 {
 }
 
 .menu-bx {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin: 0 2rem 0 auto;
     position: relative;
+    width: 60%;
+}
+
+.menu-toggle {
+    align-items: center;
+    background-color: #042e3c;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 0;
+    opacity: 0;
+    padding: 2rem 3rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    transition: height 500ms ease-in-out;
+    transition: opacity 900ms ease-in-out;
+    width: 30%;
+    z-index: 1;
+}
+
+.display {
+    height: 42rem;
+    opacity: 1;
+}
+
+.tg-m {
+    border-style: none;
+    padding: 0;
+}
+
+.tg-m-s {
+    font-size: 0.8rem;
+    font-style: oblique;
+    border-style: none;
+    padding: 0; 
+}
+
+.t-line {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+    border-bottom: 1px solid #e8f2f6;
+    width: 100%;
+}
+
+.tg-m-con {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.t-story {
+    background-color: #ffd218;
+    color: #042e3c;
+    border-radius: 5px;
+    padding: 0.3rem 1.25rem;
 }
 
 .menu-con {
@@ -56,7 +119,7 @@ h1 {
 
 a {
     padding: 0 1.25rem;
-    width: 100%;
+    width: fit-content;
     border-right: solid 1px;
     border-color: #e8f2f6;
     text-decoration: none;
@@ -769,13 +832,11 @@ footer {
     }
 
     .logo-bx {
-        position: absolute;
-        top: 0;
-        left: 0;
+        margin-left: 1rem;
     }
 
-    .logo {
-        margin-left: 1rem;
+    .menu-toggle {
+        width: 50%;
     }
 
     h1 {
@@ -800,7 +861,6 @@ footer {
         height: 2rem;
         margin-right: 1.25rem;
         width: 2rem;
-        box-shadow: 0 0 4px 2px #e8f2f6;;
     }
     
     .tog-btn {
@@ -821,7 +881,10 @@ footer {
 
     .menu-con {
         display: none;
-        text-align: right;
+    }
+
+    .sub-nav {
+        display: none;
     }
 
     a {
@@ -1096,21 +1159,15 @@ footer {
     }
 
     .logo-bx {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    .logo {
         margin-left: 1rem;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .hd {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     .my-toggle-f {
@@ -1119,21 +1176,24 @@ footer {
     }
 
     .my-toggle {
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         border: 1px solid #e8f2f6;
         height: 2rem;
-        margin-right: 1.25rem;
         width: 2rem;
-        box-shadow: 0 0 4px 2px #e8f2f6;
     }
     
     .tog-btn {
         background-color: #e8f2f6;
         border-radius: 50px;
         height: 0.2rem;
+        width: 80%;
+    }
+
+    .menu-toggle {
         width: 80%;
     }
 
@@ -1146,9 +1206,16 @@ footer {
         width: 50%;
     }
 
+    .s-n-a {
+        text-align: center;
+    }
+
     .menu-con {
         display: none;
-        text-align: right;
+    }
+
+    .sub-nav {
+        display: none;
     }
 
     a {

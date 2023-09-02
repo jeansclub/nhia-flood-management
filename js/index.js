@@ -6,13 +6,8 @@ document.querySelector(".my-toggle").addEventListener("click", function() {
 });
 
 function togButon() {
-    var menu = document.querySelector(".menu-con");
-    if (menu.style.display === "block") {
-        menu.style.display = "none";
-    } else {
-        menu.style.display = "block";
-
-    }
+    var menu = document.querySelector(".menu-toggle");
+    menu.classList.toggle('display');
 }
 
 
