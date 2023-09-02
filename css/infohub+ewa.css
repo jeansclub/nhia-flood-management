@@ -16,10 +16,10 @@ body {
     box-shadow: 0 0 1px 1px #042e3c;
     border-radius: 5px;
     padding: 0 0 1.5rem;
-    position: fixed;
-    left: 30%;
+    position: absolute;
+    left: 25%;
     top: 11rem;
-    width: 40%;
+    width: 50%;
 }
 
 .s-n-b {
@@ -320,10 +320,9 @@ p, h3 {
     }
 
     .feedback-con {
-        position: absolute;
-        left: 10%;
+        left: 7.5%;
         top: 11rem;
-        width: 80%;
+        width: 86%;
     }
 
     .fb-h {
