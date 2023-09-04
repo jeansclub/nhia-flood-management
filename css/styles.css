@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
 }
 
+body ::-webkit-scrollbar {
+    display: none;
+}
+
 section {
     width: 100%;
     margin: 0;
@@ -70,8 +74,10 @@ h1 {
 }
 
 .display {
-    height: 42rem;
+    height: 30rem;
     opacity: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .tg-m {
