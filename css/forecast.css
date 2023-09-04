@@ -398,11 +398,13 @@ form {
     margin-left: 2%;
     display: flex;
     gap: 1%;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .hour-frm {
     background-color: white;
-    width: 9.5%;
+    min-width: 9rem;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -452,7 +454,7 @@ form {
 
 .b-detail {
     background-color: white;
-    width: 26.5%;
+    min-width: 24rem;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -1004,22 +1006,12 @@ footer {
         margin-bottom: 2rem;
     }
 
-    .details {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
     .b-detail {
-        background-color: white;
-        width: 50%;
-        height: 17rem;
+        height: 14rem;
     }
     
     .hour-frm {
-        width: 40%;
-        height: 17rem;       
+        height: 14rem;       
     }
 
     .ftitl {
@@ -1053,13 +1045,14 @@ footer {
 
     .wn-con {
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
     } 
     
     .ff-wn {
-        width: 50%;
+        min-width: 16rem;
         height: 15rem;
     }
 
@@ -1351,22 +1344,13 @@ footer {
         margin-bottom: 1.5rem;
     }
 
-    .details {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
     .b-detail {
-        background-color: white;
-        width: 50%;
-        height: 15rem;
+        height: 13rem;
+        min-width: 22rem;
     }
     
     .hour-frm {
-        width: 40%;
-        height: 15rem;       
+        height: 13rem;       
     }
 
     .ftitl {
@@ -1399,18 +1383,20 @@ footer {
     }
     .wn-con {
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
+        overflow-y: hidden;
+        overflow-x: scroll;
     } 
     
     .ff-wn {
-        width: 50%;
+        min-width: 13rem;
         height: 12rem;
     }
 
     .ff-wn-b-a {
         font-size: 0.7rem;
+        margin: 0 5% 1rem;
     }
     
     .ff-wn-b-b {

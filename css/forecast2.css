@@ -107,6 +107,8 @@
     display: flex;
     gap: 2%;
     width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .activity {
@@ -169,8 +171,8 @@
 
     .timely {
         font-size: 1.2rem;
-        margin: 3rem 0 1rem;
-        text-align: center;
+        margin: 3rem 0 1rem 2%;
+        text-align: start;
     }
 
     .act-r-hd {
@@ -181,15 +183,10 @@
         font-size: 1rem;
     }
 
-    .act-con {
-        flex-wrap: wrap;
-    }
-
     .activity {
         height: 7rem;
         min-width: 12rem;
         max-width: 12rem;
-        margin-bottom: 0.5rem;
     }
 
     .a-icon {
@@ -235,8 +232,8 @@
 
     .timely {
         font-size: 1rem;
-        margin: 3rem 0 1rem;
-        text-align: center;
+        margin: 3rem 0 1rem 2%;
+        text-align: start;
     }
 
     .act-r-hd {
@@ -252,12 +249,6 @@
     }
 
     .r-par {
-        margin-left: 5%;
-        width: 90%;
-    }
-
-    .act-con {
-        flex-wrap: wrap;
         margin-left: 5%;
         width: 90%;
     }
