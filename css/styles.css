@@ -1029,6 +1029,10 @@ footer {
         font-size: 0.7rem;
         border-style: none;
     }
+
+    .fl-con {
+        width: 57%;
+    }
     
     .feats-con {
         width: 90%;
@@ -1042,7 +1046,7 @@ footer {
     }
 
     .samp-con {
-        height: 14rem;
+        height: 12rem;
     }
 
     .left {
@@ -1104,12 +1108,12 @@ footer {
     }
 
     .mid-con {
-        width: 17vh;
-        height: 17vh;
+        width: 36%;
+        height: 40%;
     }
     
     .word {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .fl-st-con {
