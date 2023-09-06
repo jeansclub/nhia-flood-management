@@ -39,7 +39,7 @@ for (let index = 0; index < document.querySelectorAll(".tap").length; index++) {
     document.querySelectorAll(".tap")[index].addEventListener("click", function() {
 
         var togg = document.querySelector(".menu-toggle");
-        togg.style.display = "none";
+        togg.classList.remove("display");
     });
     
 }
