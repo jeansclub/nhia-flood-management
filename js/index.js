@@ -39,7 +39,22 @@ for (let index = 0; index < document.querySelectorAll(".tap").length; index++) {
     document.querySelectorAll(".tap")[index].addEventListener("click", function() {
 
         var togg = document.querySelector(".menu-toggle");
-        togg.classList.remove("display");
+        if (togg.classList.contains("display")) {
+            togg.classList.remove("display");
+        }
     });
     
+}
+
+/*-------------------NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN-----------------------*/
+
+
+const test = document.getElementById("test");
+const tester = document.getElementById("tester");
+
+document.onclick = function(e) {
+    if (e.target.id !== "tester" && e.target.id !== "test") {
+        
+        tester.classList.remove("display")
+    }
 }
