@@ -738,11 +738,22 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5px;
         border: 1px solid #e8f2f6;
         height: 2rem;
         width: 2rem;
         box-shadow: 0 0 4px 2px #e8f2f6;;
+    }
+
+    .active1 {
+        rotate: 45deg;
+        transform: translate(3px, 3px);
+    }
+
+    .active2 {
+        rotate: -45deg;
+        transform: translate(3px, -2px);
     }
     
     .tog-btn {
@@ -996,10 +1007,21 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5px;
         border: 1px solid #e8f2f6;
         height: 2rem;
         width: 2rem;
+    }
+
+    .active1 {
+        rotate: 45deg;
+        transform: translate(3px, 3px);
+    }
+
+    .active2 {
+        rotate: -45deg;
+        transform: translate(3px, -2px);
     }
     
     .tog-btn {

@@ -3,6 +3,7 @@
 document.querySelector(".my-toggle").addEventListener("click", function() {
     togButon();
     buttonAnimate();
+    rotate();
 });
 
 /*-------------------NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN-----------------------*/
@@ -53,8 +54,26 @@ const test = document.getElementById("test");
 const tester = document.getElementById("tester");
 
 document.onclick = function(e) {
+
+    var active1 = document.querySelector(".btn1");
+    var active2 = document.querySelector(".btn2");
+
     if (e.target.id !== "tester" && e.target.id !== "test") {
         
-        tester.classList.remove("display")
+        tester.classList.remove("display");
+        active1.classList.remove("active1");
+        active2.classList.remove("active2");
     }
+}
+
+
+/*-------------------NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN-----------------------*/
+
+
+function rotate() {
+    var active1 = document.querySelector(".btn1");
+    var active2 = document.querySelector(".btn2");
+
+    active1.classList.toggle("active1");
+    active2.classList.toggle("active2");
 }

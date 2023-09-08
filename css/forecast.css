@@ -66,8 +66,8 @@ h1 {
     position: absolute;
     top: 2.5rem;
     right: 0;
-    transition: height 500ms ease-in-out;
-    transition: opacity 900ms ease-in-out;
+    transition: height 500ms ease-out;
+    transition: opacity 500ms ease-in;
     width: 30%;
     z-index: 1;
 }
@@ -860,11 +860,22 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5px;
         border: 1px solid #e8f2f6;
         height: 2rem;
         margin-right: 1.25rem;
         width: 2rem;
+    }
+
+    .active1 {
+        rotate: 45deg;
+        transform: translate(3px, 3px);
+    }
+
+    .active2 {
+        rotate: -45deg;
+        transform: translate(3px, -2px);
     }
     
     .tog-btn {
@@ -1175,10 +1186,21 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5px;
         border: 1px solid #e8f2f6;
         height: 2rem;
         width: 2rem;
+    }
+
+    .active1 {
+        rotate: 45deg;
+        transform: translate(3px, 3px);
+    }
+
+    .active2 {
+        rotate: -45deg;
+        transform: translate(3px, -2px);
     }
     
     .tog-btn {
