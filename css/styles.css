@@ -749,11 +749,13 @@ footer {
     .active1 {
         rotate: 45deg;
         transform: translate(3px, 3px);
+        transition: rotate 500ms ease-in-out;
     }
 
     .active2 {
         rotate: -45deg;
         transform: translate(3px, -2px);
+        transition: rotate 500ms ease-in-out;
     }
     
     .tog-btn {
@@ -1017,11 +1019,13 @@ footer {
     .active1 {
         rotate: 45deg;
         transform: translate(3px, 3px);
+        transition: rotate 500ms ease-in-out;
     }
 
     .active2 {
         rotate: -45deg;
         transform: translate(3px, -2px);
+        transition: rotate 500ms ease-in-out;
     }
     
     .tog-btn {
