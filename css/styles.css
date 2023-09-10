@@ -63,6 +63,7 @@ h1 {
     gap: 2rem;
     height: 0;
     opacity: 0;
+    overflow: hidden;
     padding: 2rem 3rem;
     position: absolute;
     top: 2.5rem;
@@ -160,10 +161,11 @@ a {
 .fl-1 {
     height: 35rem;
     width: 100%;
-    background-image: url(image/Floods-in-Jalingo-Taraba.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.fl-1-img {
+    height: 35rem;
+    width: 100%;
 }
 
 .fl-con {
@@ -426,12 +428,8 @@ h3 {
 }
 
 .fd-pc {
-    background-image: url(image/nigeria_flood.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
+    height: 20rem;
+    width: 100%;
 }
 
 .fl-stat {
@@ -493,20 +491,25 @@ h3 {
 }
 
 .wfo-a {
-    background-image: url(image/author.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 10rem;
     width: 100%;
-    display: flex;
-    justify-content: right;
+    position: relative;
+}
+
+.wfo-a-img {
+    height: 10rem;
+    width: 100%;
 }
 
 .wfo-co {
     margin: 1.5rem 0;
     padding: 0 3%;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 60%;
     text-align: center;
+
 }
 
 .wfo-a-a {
@@ -735,6 +738,7 @@ footer {
     }
 
     .my-toggle {
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -795,6 +799,10 @@ footer {
     }
 
     .samp-con {
+        height: 17rem;
+    }
+
+    .fd-pc {
         height: 17rem;
     }
     
@@ -1006,6 +1014,7 @@ footer {
 
     .my-toggle {
         background-color: black;
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1074,6 +1083,10 @@ footer {
     .samp-con {
         height: 12rem;
         width: 70%;
+    }
+
+    .fd-pc {
+        height: 12rem;
     }
 
     .left {
@@ -1170,6 +1183,12 @@ footer {
     
     .wfo {
         width: 80%;
+    }
+
+    .wfo-a-img,
+    .wfo-a {
+        height: 9rem;
+        width: 100%;
     }
 
     .phn {
