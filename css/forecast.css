@@ -62,6 +62,7 @@ h1 {
     gap: 2rem;
     height: 0;
     opacity: 0;
+    overflow: hidden;
     padding: 2rem 3rem;
     position: absolute;
     top: 2.5rem;
@@ -402,7 +403,68 @@ form {
     gap: 1%;
     overflow-y: hidden;
     overflow-x: scroll;
+    position: relative;
 }
+
+.scroll-btn1,
+.scroll-btn2,
+.scroll-btn3 {
+    display: none;
+}
+
+.details:hover > .scroll-btn1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 0 3%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 95%;
+}
+
+.scrol-btn {
+    background-color: rgb(201, 195, 195, 0.5);
+    border-style: none;
+    border-radius: 50%;
+    color: #636060;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+@keyframes slideleft {
+    from {margin-left: 2rem;} 
+    to {margin-left: 0;}
+ }
+
+ @keyframes slideright {
+    from {margin-right: 2rem;} 
+    to {margin-right: 0;}
+ }
+
+ .prev {
+     margin-left: 2rem;
+     animation-name: slideleft;
+     animation-duration: 2s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     position: fixed;
+     left: 0;
+ }
+
+ .nxt {
+     margin-right: 2rem;
+     animation-name: slideright;
+     animation-duration: 2s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     position: fixed;
+     right: 0;
+ }
 
 .b-detail {
     background-color: white;
@@ -572,6 +634,20 @@ form {
     overflow-x: scroll; 
     overflow-y: hidden;
     padding: 0.5rem 0;
+    position: relative;
+}
+
+.ffw-m:hover > .scroll-btn2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 0 3%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 95%;
 }
 
 .ff-wm {
@@ -861,6 +937,7 @@ footer {
     }
 
     .my-toggle {
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1068,7 +1145,21 @@ footer {
         align-items: center;
         overflow-x: scroll;
         overflow-y: hidden;
-    } 
+        position: relative;
+    }
+
+    .wn-con:hover > .scroll-btn3 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        height: 3rem;
+        padding: 0 3%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 95%;
+    }
     
     .ff-wn {
         min-width: 16rem;
@@ -1189,6 +1280,7 @@ footer {
 
     .my-toggle {
         background-color: black;
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1419,7 +1511,21 @@ footer {
         align-items: center;
         overflow-y: hidden;
         overflow-x: scroll;
-    } 
+        position: relative;
+    }
+
+    .wn-con:hover > .scroll-btn3 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        height: 3rem;
+        padding: 0 3%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 95%;
+    }
     
     .ff-wn {
         min-width: 13rem;
