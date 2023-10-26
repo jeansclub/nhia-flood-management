@@ -190,11 +190,34 @@ form {
     gap: 3%;
     justify-content: center;
     margin: 1rem 0 2rem;
+    width: 90%;
 }
 
 .src-dir {
     margin: 0;
     font-weight: bold;
+}
+
+.src {
+    display: flex;
+    gap: 5px;
+    width: 60%;
+}
+
+.label {
+    width: 10%;
+}
+
+#state,
+#lga,
+#city {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #042e3c;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 1%;
+    width: 70%;
 }
 
 .btn {
