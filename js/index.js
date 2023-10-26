@@ -77,3 +77,29 @@ function rotate() {
     active1.classList.toggle("active1");
     active2.classList.toggle("active2");
 }
+
+
+/*-------------------NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN-----------------------*/
+
+let weatherLocation = "Ado Ekiti";
+
+
+async function fectchResult(target) {
+    
+    const url = "https://api.weatherapi.com/v1/forecast.json?key=9b99f40c7b0341bcbe0211219232509&q="+target+"&days=1&aqi=no&alerts=no";
+    const res = await fetch(url);
+    const data = await res.json();
+
+
+    document.querySelector(".time").innerText = data.location.localtime;
+    document.querySelector(".deg-img").src = "https:" + data.current.condition.icon;
+    document.querySelector(".deg-cond").innerHTML = data.current.condition.text;
+    document.querySelector(".w-a").innerHTML = data.current.temp_c;
+    // document.querySelector(".cloud").innerHTML = data.current.cloud;
+    document.querySelector(".a-d").innerHTML = data.current.pressure_mb;
+    document.querySelector(".a-b").innerHTML = data.current.humidity;
+    document.querySelector(".a-a").innerHTML = data.current.wind_kph;
+
+}
+
+fectchResult(weatherLocation);
