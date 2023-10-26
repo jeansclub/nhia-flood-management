@@ -1,6 +1,23 @@
 // alert("i am correct");
 
 
+
+document.getElementById("submit-btn").addEventListener("click", function() {
+    
+    valueTest();
+});
+
+const mySearch = document.getElementById("city");
+
+
+
+function valueTest() {
+    weatherLocation = mySearch.value;
+
+    fectchResult(weatherLocation);
+}
+
+
 async function fectchResult(target) {
     
     const url = "https://api.weatherapi.com/v1/forecast.json?key=9b99f40c7b0341bcbe0211219232509&q="+target+"&days=1&aqi=no&alerts=no";

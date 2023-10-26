@@ -35,6 +35,24 @@ var today = new Date();
 var time = today.getHours()+ ":" + today.getMinutes();
 
 
+//--------------------------------------------------------------------------------------------------------------------
+
+
+document.getElementById("submit-btn").addEventListener("click", function() {
+    
+    valueTest();
+});
+
+const mySearch = document.getElementById("city");
+
+
+
+function valueTest() {
+    weatherLocation = mySearch.value;
+
+    fectchResult(weatherLocation);
+}
+
 
 async function fectchResult(target) {
     
@@ -66,8 +84,6 @@ async function fectchResult(target) {
 
     document.querySelector(".a-a").innerHTML = data.current.wind_kph;
     document.querySelector(".a-a2").innerHTML = data.current.wind_kph;
-
-    // document.querySelector(".days").innerText = getDayName(new Date().getDay());
 
 
     for (let index = 0; index < document.querySelectorAll(".an-h").length; index++) {
